@@ -176,4 +176,13 @@ button{
     transition-duration: .4s;
 }
 
+button:hover{
+    background-color: limegreen;
+    color: white;
+}
 
+button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
+}
